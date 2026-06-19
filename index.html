@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOWCTRL — Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      *{margin:0;padding:0;box-sizing:border-box}
+      body{background:#0A0A0A;font-family:ui-monospace,monospace}
+      #root{min-height:100vh}
+      input[type=range]{accent-color:#FF5A00}
+      ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:#111}
+      ::-webkit-scrollbar-thumb{background:#333;border-radius:2px}
+      ::-webkit-scrollbar-thumb:hover{background:#FF5A00}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
